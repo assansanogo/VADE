@@ -1,4 +1,4 @@
-# the first step is to build the sampling layer
+# The first step is to build the sampling layer
 class Sampling(layers.Layer):
     ''' Uses (z_mean, z_log_var) to sample z, the vector encoding a digit.
      (the latent_dimension is not impacting this sampling function !)

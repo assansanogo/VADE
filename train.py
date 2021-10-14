@@ -2,6 +2,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
+from variational_autoencoder.py import encoder, decoder
 from VAE import VAE
 
 

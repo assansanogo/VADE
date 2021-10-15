@@ -1,5 +1,5 @@
 # VADE
-I. Definitions:
+## I. Definitions:
 
   a Variational Autoencoders is a generative model. 
   a VAE is a particular autoencoder :
@@ -9,6 +9,11 @@ I. Definitions:
 
   As such, this process allows us to generate some new data. 
 
-II. Variational models:
- 1. VAE (Variational auto encoder).   [VAE.ipynb](./notebooks/VAE.ipynb)
- 2. VADE (Variational deep encoding)  [VADE.ipynb](./notebooks/VADE.ipynb)
+## II. Variational models:
+ ### 1. VAE (Variational auto encoder).   [VAE.ipynb](./notebooks/VAE.ipynb)
+ ### 2. VADE (Variational deep encoding)  [VADE.ipynb](./notebooks/VADE.ipynb)
+
+
+## References:
+- 📘[Variational AutoEncoder](https://keras.io/examples/generative/vae/)
+- 📘[KL Divergence Calculation](https://stackoverflow.com/questions/61597340/how-is-kl-divergence-in-pytorch-code-related-to-the-formula)

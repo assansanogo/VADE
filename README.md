@@ -14,6 +14,6 @@
  ### 2. VADE (Variational deep encoding)  [VADE.ipynb](./notebooks/VADE.ipynb)
 
 
-## References:
-- 📘[Variational AutoEncoder](https://keras.io/examples/generative/vae/)
-- 📘[KL Divergence Calculation](https://stackoverflow.com/questions/61597340/how-is-kl-divergence-in-pytorch-code-related-to-the-formula)
+#### References:
+- 📘 [Variational AutoEncoder](https://keras.io/examples/generative/vae/)
+- 📘 [KL Divergence Calculation](https://stackoverflow.com/questions/61597340/how-is-kl-divergence-in-pytorch-code-related-to-the-formula)

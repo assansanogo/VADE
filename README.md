@@ -1,5 +1,5 @@
 # VADE
-I. Definitions
+I. Definitions:
 
   a Variational Autoencoders is a generative model. 
   a VAE is a particular autoencoder :

@@ -7,7 +7,7 @@
   - whose encodings distribution *is regularized during the training* (in order to ensure that its latent space follows a given distribution.)
   - uses *the variational inference method* (approximation of the theoretical loss by the NELBO/ELBO)
 
-  As such, this process allows us to generate some new data. 
+  As such - when trained - this process to randomly sample latent representation to generate some new data. 
 
 ## II. Variational models:
  ### 1. VAE (Variational auto encoder).   [VAE.ipynb](./notebooks/VAE.ipynb)

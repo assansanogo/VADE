@@ -10,8 +10,8 @@
   As such - when trained - this process to randomly sample latent representation to generate some new data. 
 
 ## II. Variational models:
- ### 1. VAE (Variational auto encoder).   [VAE.ipynb](./notebooks/VAE.ipynb)
- ### 2. VADE (Variational deep encoding)  [VADE.ipynb](./notebooks/VADE.ipynb)
+ #### 1. VAE (Variational auto encoder).   [VAE.ipynb](./notebooks/VAE.ipynb)
+ #### 2. VADE (Variational deep encoding)  [VADE.ipynb](./notebooks/VADE.ipynb)
 
 
 #### References:

@@ -2,6 +2,12 @@
 class Sampling(layers.Layer):
     ''' Uses (z_mean, z_log_var) to sample z, the vector encoding a digit.
      (the latent_dimension is not impacting this sampling function !)
+     Parameters:
+                    z_mean (float): A decimal integer
+                    z_log_var (int): Another decimal integer
+
+            Returns:
+                    the probability of z given z_mean and z_log_var 
     '''
 
     def call(self, inputs):
@@ -22,6 +28,13 @@ class Sampling(layers.Layer):
 def create_sampler(x, latent_dim):
   '''
   wrapper function to create a sampler
+  
+   Parameters:
+                x (float): A decimal integer
+
+
+        Returns:
+                z_mean, z_log_var and z (where z = z_mean + eps*z_log_var)
   '''
   latent_dimensions = latent_dim
 
@@ -36,6 +49,12 @@ def create_sampler(x, latent_dim):
 def create_encoder():
   '''
   encoder plus sampler
+  
+ Parameters:
+            None
+
+    Returns:
+            encoder (keras.Model)
   '''
   encoder_inputs = keras.Input(shape=(28, 28, 1))
   x = layers.Conv2D(32, 3, activation="relu", strides=2, padding="same")(encoder_inputs)
@@ -53,6 +72,12 @@ def create_encoder():
 def create_decoder(latent_dim):
   '''
   decoder part
+  
+   Parameters:
+            latent_dim : (dimension of the latent representation)
+
+    Returns:
+            decoder (keras.Model)
   '''
   latent_inputs = keras.Input(shape=(latent_dim,))
   # dense layer which concentrates computation
